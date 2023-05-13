@@ -1,0 +1,22 @@
+{
+  "name": "json_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "render-data": "node render-data.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "query-string": "^7.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.0",
+    "faker": "^5.5.2",
+    "nodemon": "^2.0.7"
+  }
+}
